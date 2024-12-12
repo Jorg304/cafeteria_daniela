@@ -9,7 +9,9 @@ import producto_5 from "../images/producto_5.jpg"
 import producto_6 from "../images/producto_6.png"
 import producto_7 from "../images/producto_7.png"
 import producto_8 from "../images/producto_8.png"
-
+import producto_10 from "../images/producto_10.jpeg"
+import producto_11 from "../images/producto_11.jpeg"
+import producto_12 from "../images/producto_12.jpeg"
 
 import { AiTwotoneStop } from "react-icons/ai";
 import { IoCloseCircleOutline } from "react-icons/io5";
@@ -165,6 +167,11 @@ export const CoffeQuintalito = () => {
                                     }
                                 </div>
                             </div>
+                        </div>
+                        <div id="estructura-3-1" className="w-full h-[86vh] flex flex-row justify-center items-center space-x-[130px] shadow-[0_20px_30px_-15px_rgba(0,0,0,0.3)]">
+                            <img src={producto_10} alt="producto_10" className="w-[250px] rounded-[10px] filter contrast-150 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.3)]" />
+                            <img src={producto_11} alt="producto_11" className="w-[250px] rounded-[10px] filter contrast-150 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.3)]" />
+                            <img src={producto_12} alt="producto_12" className="w-[250px] rounded-[10px] filter contrast-150 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.3)]" />
                         </div>
                         <div id='estructura-4' className="flex h-[86vh] flex-row py-[70px] px-[35px]">
                             <div className="flex flex-row w-full">
