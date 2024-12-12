@@ -41,7 +41,7 @@ export const CoffeQuintalito = () => {
     return (
         <>
             <div className="relatve w-full bg-[#ffebb598]">
-                <div className="fixed w-full h-[22vh] bg-[#183d47] z-[100]">
+                <div className="fixed left-0 top-0 w-full h-[22vh] bg-[#183d47] z-[100]">
                     <div className="fixed flex justify-center items-center w-full h-[4vh] top-[7vh] border border-[#00000044] bg-[#ffebb5]">
                         <div className="absolute flex justify-center items-center rounded-[50%] h-[100px] w-[100px] bg-[#ffffff] text-[20px] p-[2px]">
                             <Link to='/quintalito-cafe' className="relative flex justify-center items-center border border-[#00000044] rounded-[50%] w-full h-full italic">
@@ -51,7 +51,7 @@ export const CoffeQuintalito = () => {
                     </div>
                     <ComponentMenu />
                 </div>
-                <section className="absolute top-[19.5vh] w-full bg-green z-[80]">
+                <section className="absolute top-[19.5vh] w-[100wh] bg-green z-[80]">
                     <div className="px-[0px]">
                         <div id='estructura-1' className="relative w-full h-[87vh] py-[70px] bg-gradient-to-r from-[#0d576b00] to-[#063542] px-[35px]">
                             <div className="absolute bottom-[23%] left-0 text-right w-[100%] font-serif px-[50px]">
@@ -65,7 +65,7 @@ export const CoffeQuintalito = () => {
                                 {/* <p>Bienvenidos a CAFÉ QUINTALITO Tu Café en Grano Directo desde el Corazón de la CDMX.</p> */}
                             </div> 
                         </div>
-                        <div id='estructura-2' className="relative h-[86vh] w-full py-[70px] bg-gradient-to-r from-[#063542] to-[#0d576b00] px-[35px]">
+                        <div id='estructura-2' className="h-[86vh] w-full py-[70px] bg-gradient-to-r from-[#063542] to-[#0d576b00] px-[35px]">
                             <div className="relative w-full h-full flex flex-col justify-center border-r-[3px] border-black">
                                 <div className="absolute left-[45%] top-[20%]">
                                     <img src={producto_7} alt="producto-7" className="w-[150px]" />
