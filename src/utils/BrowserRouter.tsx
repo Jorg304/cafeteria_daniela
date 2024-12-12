@@ -10,9 +10,9 @@ export const ComponenteBrowser = () => {
             <BrowserRouter>
                 <Routes>
                 <Route path="/" element={<> <Link to='/quintalito-cafe'>Cafe Quintalito</Link> </>} />
-                    <Route path="/quintalito-cafe" element={<CoffeQuintalito />} />
-                    <Route path="/cart-buy-products" element={<CartBuyProducts />} />
-                    <Route path="/view-product" element={<ViewProduct />} />
+                <Route path="/quintalito-cafe" element={<CoffeQuintalito />} />
+                <Route path="/cart-buy-products" element={<CartBuyProducts />} />
+                <Route path="/view-product" element={<ViewProduct />} />
                 </Routes>
             </BrowserRouter>  
         </>
