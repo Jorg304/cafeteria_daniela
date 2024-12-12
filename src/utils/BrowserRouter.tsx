@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes, Navigate } from "react-router-dom"
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom"
 import { CoffeQuintalito } from "../components/structure_quintalito/CoffeQuintalito"
 import { CartBuyProducts } from "../components/structure_quintalito/CartBuyProducts"
 import { ViewProduct } from "../components/structure_quintalito/ViewProduct"
